@@ -27,7 +27,6 @@ module.exports.destroy = function(req,res){
         if(comment.user == req.user.id){
             let postId = comment.post;
 
-            let postId = comment.post;
 
             comment.remove();
 

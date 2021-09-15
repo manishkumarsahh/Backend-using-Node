@@ -12,7 +12,7 @@ router.use('/posts', require('./posts'));
 router.use('/comments', require('./comments'));
 
 
-
+router.use('/api', require('./api'));
 
 
 
